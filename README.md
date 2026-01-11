@@ -1,2 +1,1 @@
-# imm-ukf-state-estimation
-MATLAB implementation of an Interacting Multiple Model Unscented Kalman Filter for nonlinear state estimation and robustness analysis.
+This repository contains the MATLAB-based simulation and analysis framework used to develop and evaluate the proposed estimation architecture prior to hardware deployment. The simulation implements the IMM-UKF estimator, truth dynamics, measurement models, and controlled fault injection for IMU and GPS sensors, enabling systematic evaluation under model uncertainty and degraded sensing. Results from this environment inform the real-time implementation on a Raspberry Pi 4 and provide a baseline for direct comparison against the PX4 Autopilot’s onboard EKF under identical fault scenarios.
